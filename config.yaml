@@ -1,0 +1,17 @@
+# config.yaml
+
+# Cesta k CSV souboru s historickými výsledky F1
+data_path: "f1_race_results.csv"
+
+# Cesta k uloženému modelu
+model_path: "f1_winner_model.pkl"
+
+# Cesty k encoderům jednotlivých atributů
+encoding_paths:
+  circuit: "enc_circuit.pkl"
+  constructor: "enc_constructor.pkl"
+  driver: "enc_driver.pkl"
+
+# Výchozí hodnota pro grid position
+default_values:
+  grid_position: 5
